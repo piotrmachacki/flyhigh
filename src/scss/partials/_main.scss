@@ -1,0 +1,21 @@
+body {
+	min-height: 100vh;
+	background: #fff;
+	font-family: $font-family-base;
+	font-size: 16px;
+	line-height: 25px;
+	color: $color-base;
+	overflow-x: hidden;
+	position: relative;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a,
+a *,
+button,
+button * {
+	transition: $transition;
+}
