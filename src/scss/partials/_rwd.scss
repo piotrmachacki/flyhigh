@@ -183,7 +183,7 @@
 
 			.box {
 				width: 70%;
-				
+
 				&:not(:last-child) {
 					margin-bottom: 70px;
 				}
@@ -303,6 +303,16 @@
 					top: 0;
 					margin-top: 0;
 					left: 0;
+				}
+			}
+		}
+	}
+
+	.section3 {
+		.wrap1 {
+			.box1 {
+				.select2 {
+					max-width: 200px;
 				}
 			}
 		}
