@@ -1,0 +1,337 @@
+@media (max-width: map-get($grid-breakpoints, "xxl")-1) {
+
+	.section {
+		.heading {
+			font-size: 48px;
+			line-height: 54px;
+		}
+	}
+
+	.section1 {
+		.box-wrap {
+			.box {
+				.label {
+					font-size: 24px;
+					line-height: 36px;
+				}
+
+				&.box1 {
+					top: 90px;
+					left: 3.5%;
+				}
+
+				&.box2 {
+					right: 1.5%;
+					top: 150px;
+				}
+
+				&.box3 {
+					top: 0;
+					margin-top: 420px;
+					left: 34.75%;
+				}
+			}
+		}
+	}
+
+	.section4 {
+		.wrap1 {
+			.box {
+				figure {
+					padding-left: 40px;
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: map-get($grid-breakpoints, "xl")-1) {
+
+	.html-video-background,
+	.header-section {
+		min-height: 80vh;
+	}
+
+	.section {
+		.heading {
+			font-size: 46px;
+			line-height: 52px;
+		}
+	}
+
+	.section1 {
+		.box-wrap {
+			.box {
+				width: 40%;
+				padding: 3% 5%;
+
+				.label {
+					font-size: 20px;
+					line-height: 30px;
+				}
+
+				&.box1 {
+					top: 90px;
+					left: 3.5%;
+				}
+
+				&.box2 {
+					right: 1.5%;
+					top: 150px;
+				}
+
+				&.box3 {
+					top: 0;
+					margin-top: 430px;
+					left: 25%;
+				}
+			}
+		}
+	}
+
+	.section3 {
+		background-size: 30%, auto;
+		padding-top: 200px;
+	}
+
+}
+
+@media (max-width: map-get($grid-breakpoints, "lg")-1) {
+
+	.html-video-background,
+	.header-section {
+		min-height: 70vh;
+	}
+
+	.section {
+		.heading {
+			font-size: 42px;
+			line-height: 48px;
+		}
+	}
+
+	.section1 {
+		.box-wrap {
+			.box {
+				width: 45%;
+				padding: 4% 5%;
+
+				.label {
+					font-size: 18px;
+					line-height: 20px;
+				}
+
+				&.box1 {
+					top: 90px;
+					left: 3%;
+				}
+
+				&.box2 {
+					right: 3%;
+					top: 150px;
+				}
+
+				&.box3 {
+					top: 0;
+					margin-top: 390px;
+					left: 9%;
+				}
+			}
+		}
+	}
+
+	.section2 {
+		.wrap2 {			
+			.box {
+				width: 80%;
+				margin-top: 20%;
+			}
+		}
+	}
+
+	.section3 {
+		background-size: 30%, 90%;
+		background-position: top right, center bottom;
+		padding-top: 130px;
+		padding-bottom: 34%;
+	}
+
+	.section4 {
+		.wrap1 {
+			.box {
+				justify-content: center !important;
+
+				figure {
+					figcaption {
+						font-size: 22px;
+						line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.section5 {
+		.heading {
+			text-align: center;
+		}
+
+		.wrap1 {
+			flex-direction: column;
+			align-items: center;
+
+			.box {
+				width: 70%;
+				
+				&:not(:last-child) {
+					margin-bottom: 70px;
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: map-get($grid-breakpoints, "md")-1) {
+
+	.html-video-background,
+	.header-section {
+		min-height: 60vh;
+	}
+
+	.section {
+		.heading {
+			font-size: 36px;
+			line-height: 42px;
+		}
+	}
+
+	.section1 {
+		.box-wrap {
+			.box {
+				width: 45%;
+				padding: 4% 5%;
+
+				.label {
+					font-size: 24px;
+					line-height: 36px;
+				}
+
+				&.box1 {
+					top: 90px;
+					left: 3%;
+				}
+
+				&.box2 {
+					right: 3%;
+					top: 250px;
+				}
+
+				&.box3 {
+					top: 0;
+					margin-top: 490px;
+					left: 9%;
+				}
+			}
+		}
+	}
+
+	.section2 {
+		margin-bottom: 100px;
+	}
+
+	.section3 {
+		background-size: 0, 90%;
+		background-position: top right, center bottom;
+		padding-top: 0;
+	}
+
+	.section5 {
+		.wrap1 {
+			.box {
+				width: 90%;
+			}
+		}
+	}
+
+	
+}
+
+@media (max-width: map-get($grid-breakpoints, "sm")-1) {
+	
+	.html-video-background,
+	.header-section {
+		min-height: 50vh;
+	}
+
+	.hero-wrap {
+		.text2 {
+			font-size: 50px;
+		}
+
+		.text3 {
+			font-size: 40px;
+		}
+	}
+
+	.section {
+		.heading {
+			font-size: 30px;
+			line-height: 36px;
+		}
+	}
+
+	.section1 {
+		.box-wrap {
+			margin-top: 50px;
+			text-align: center;
+
+			.box {
+				width: 90%;
+				display: inline-block;
+				position: static;
+				padding: 4% 7%;
+				margin-bottom: 40px;
+
+				.label {
+					font-size: 27px;
+					line-height: 40px;
+				}
+
+				&.box3 {
+					top: 0;
+					margin-top: 0;
+					left: 0;
+				}
+			}
+		}
+	}
+
+	.section5 {
+		.wrap1 {
+			.box {
+				width: 100%;
+			}
+		}
+	}
+
+	.section6 {
+		a.mail {
+			&:after {
+				margin-bottom: 50px;
+			}
+		}
+
+		.social {
+			justify-content: flex-start;
+		}
+
+		.cities {
+			li {
+				width: 100%;
+			}
+		}
+	}
+
+}

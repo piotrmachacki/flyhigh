@@ -1,0 +1,51 @@
+// Hamburger
+// ==================================================
+.hamburger {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+// Select2
+// ==================================================
+.select2 {
+	min-width: 250px;
+}
+
+.select2-container--default .select2-selection--single {
+	height: auto;
+	background: none;
+	border: 0;
+	border-bottom: 2px solid $text-color-third;
+	border-radius: 0;
+	padding: 12px;
+	padding-right: 22px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder,
+.select2-results__option,
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	font-size: 27px;
+	font-weight: 700;
+	color: #213383;
+	line-height: 1;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 50%;
+	right: 18px;
+	transform: translateY(-50%);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: $text-color-third transparent transparent transparent;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+	border-color: transparent transparent $text-color-third transparent;
+	border-width: 0 10px 10px 10px;
+}

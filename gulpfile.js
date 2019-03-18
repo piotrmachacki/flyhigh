@@ -35,7 +35,7 @@ gulp.task('sass', () => {
 // js
 // ---------------------------------------------- //
 gulp.task('js', () => {
-	return gulp.src(['./node_modules/jquery/dist/jquery.min.js', './src/js/scripts.js'])
+	return gulp.src(['./node_modules/jquery/dist/jquery.min.js', './node_modules/select2/dist/js/select2.min.js', './src/js/scripts.js'])
 		.pipe(sourcemaps.init())
 		.pipe(concat('scripts.min.js'))
 		.pipe(uglify())
@@ -64,7 +64,7 @@ gulp.task('imagemin', () => {
 // copy files
 // ---------------------------------------------- //
 gulp.task('copyFiles', () => {
-	return gulp.src('./src/**/*.html')
+	return gulp.src(['./src/**/*.html', './src/fonts/**/*.*'],  {base: 'src'})
 		.pipe(gulp.dest('./dist/'));
 });
 // ---------------------------------------------- //
@@ -120,7 +120,7 @@ gulp.task('watch', () => {
 	gulp.watch('./src/**/*.scss', gulp.series('sass', 'reload'));
 	gulp.watch('./src/**/*.js', gulp.series('js', 'reload'));
 	gulp.watch('./src/images/**/*.*', gulp.series('imagemin', 'reload'));
-	gulp.watch('./src/**/*.html', gulp.series('copyFiles', 'reload'));
+	gulp.watch(['./src/**/*.html', './src/fonts/**/*.*'], gulp.series('copyFiles', 'reload'));
 });
 // ---------------------------------------------- //
 

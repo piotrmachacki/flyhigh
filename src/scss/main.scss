@@ -1,8 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
+@import '../../node_modules/select2/src/scss/core';
 
 @import 'partials/variables';
 @import 'partials/mixins';
 @import 'partials/fonts';
+@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers';
 @import 'partials/main';
 @import 'partials/components';
 @import 'partials/rwd';

@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Daniel';
+	src: url('../fonts/Daniel-Black.eot');
+	src: url('../fonts/Daniel-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Daniel-Black.woff2') format('woff2'),
+		url('../fonts/Daniel-Black.woff') format('woff'),
+		url('../fonts/Daniel-Black.ttf') format('truetype'),
+		url('../fonts/Daniel-Black.svg#Daniel-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Daniel';
+	src: url('../fonts/Daniel-Regular.eot');
+	src: url('../fonts/Daniel-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Daniel-Regular.woff2') format('woff2'),
+		url('../fonts/Daniel-Regular.woff') format('woff'),
+		url('../fonts/Daniel-Regular.ttf') format('truetype'),
+		url('../fonts/Daniel-Regular.svg#Daniel-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Daniel';
+	src: url('../fonts/Daniel-Bold.eot');
+	src: url('../fonts/Daniel-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Daniel-Bold.woff2') format('woff2'),
+		url('../fonts/Daniel-Bold.woff') format('woff'),
+		url('../fonts/Daniel-Bold.ttf') format('truetype'),
+		url('../fonts/Daniel-Bold.svg#Daniel-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
